@@ -1,3 +1,5 @@
+
+//LESSON NOTES 1,2  : 07.05.2018
 //CREATE TENSORS
 const shape = [2, 3]; // 2 rows, 3 columns
 const a = tf.tensor([1.0, 2.0, 3.0, 10.0, 20.0, 30.0], shape);
@@ -26,7 +28,7 @@ const updatedValues = tf.tensor1d([0,1,0,1,0]);
 biases.assign(updatedValues); //update values of var
 //biases.print();
 
-//PRACTICE
+//PRACTICE : 07.05.2018
 const empty = tf.zeros([3]);
 //empty.print();
 
@@ -36,3 +38,11 @@ const emptyVar = tf.variable(empty)
 array = [1,1,1];
 const f = tf.tensor1d(array);
 //f.print();
+
+
+//PRACTICE : 15.05.2018
+const mytensor = tf.tensor2d([[1,2,3], [4,5,6]]);
+const myTensVar = tf.variable(mytensor);
+const myNewTens = tf.tensor2d([[7,8,9],[10,11,12]]);
+myTensVar.assign(myNewTens);
+//myTensVar.print();
