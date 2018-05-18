@@ -1,0 +1,8 @@
+https://github.com/tcorral/javascript-challenges-book
+
+
+
+help:
+https://jsbooks.revolunet.com/
+http://bonsaiden.github.io/JavaScript-Garden/
+https://github.com/tcorral/Design-Patterns-in-Javascript
