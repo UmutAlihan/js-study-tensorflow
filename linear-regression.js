@@ -1,3 +1,5 @@
+//Thanks to Daniel Shiffman at Codintrain
+
 //dataset		(mouse clicks)
 //loss()		(minimize it)
 //optimizer()	(has learning rate)
